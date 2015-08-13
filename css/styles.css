@@ -1,0 +1,70 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	color: #E0C98E;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#sketch_bkg {
+	width: 640px;
+	height: 680px;
+	margin: 0 auto;
+	background-color: #BE0001;
+	border-radius: 50px;
+	-webkit-box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.32);
+	box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.32);
+}
+
+#gridContainer {
+	width: 510px;
+	margin: 0 auto;
+}
+
+.row {
+	width: 100%;
+}
+
+.gridBlock {
+	background-color: #B2B5BA;
+	float: left;
+}
+
+#buttonWrapper {
+	position: relative;
+	top: -47px;
+	left: 155px;
+	width: 640px;
+
+}
+
+button {
+	background: #F0F0F0;
+	border-radius: 6px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #575457;
+	font-size: 14px;	
+	padding: 3px 5px;
+	margin-left: 10px;
+	border: none;
+	text-decoration: none;
+}
+
+button:hover {
+	background: #fff;
+	color: #303030;
+	text-decoration: underline;
+}
+
